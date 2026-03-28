@@ -15,6 +15,7 @@ export default function AdminNav() {
     <nav className="nav">
       <Link href="/admin"><strong>Dashboard</strong></Link>
       <Link href="/admin/students">Students</Link>
+      <Link href="/admin/projects">Projects</Link>
       <Link href="/admin/students/new">Add Student</Link>
       <Link href="/admin/projects/new">Add Project</Link>
       <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 16 }}>
